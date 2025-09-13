@@ -2,7 +2,7 @@
   width: 540px;
 }
 .card__title {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -10,8 +10,13 @@
   color: #000000;
   margin: 0 0 32px;
 }
+.card__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
